@@ -1,2 +1,9 @@
 Link para download do Git: https://git-scm.com/downloads
 
+Fluxo natural
+
+git add
+
+git commit -m "mensagem"
+
+git push
