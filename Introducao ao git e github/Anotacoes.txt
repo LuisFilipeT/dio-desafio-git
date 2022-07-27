@@ -11,4 +11,21 @@ git push
 
 Resolver conflitos de merge
 
-git commit -am "Mensagem"
+Fluxo conflito
+
+error: failed to push some refs to 'https://github.com/LuisFilipeT/dio-desafio-git.git'
+
+git pull
+
+entrar no arquivo e editar manualmente as linhas removendo as marcacoes de conflito e escolhendo a melhor versao
+
+<<<<<<< HEAD
+        <h1 style="color: red;">hello, world!</h1>
+=======
+        <h1 style="color: blue;">hello, world!!</h1>
+>>>>>>> 9ffd09f65624b9d16755d48a20c5cbe8169328a9
+
+finalizar o commit e push com git commit -am "Mensagem"
+
+tutorial sobre merge conflict do cs50
+https://www.youtube.com/watch?v=NcoBAfJ6l2Q&t=1900s
